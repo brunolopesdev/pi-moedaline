@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moeda-line</title>
+    <link rel="shortcut icon" href="./images/dev-to-logo-24.ico" type="image/x-icon">
+    <!-- CSS PRINCIPAL -->
+    <link rel="stylesheet" href="style.css">
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header-1">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#inicio" class="nav_logo"><i class='bx bx-coin' ></i> moeda-line</a>
+            </div>
+<div class="nav_menu" id="nav-menu">
+    <ul class="nav_list">
+        <li class="nav_item"><a href="#inicio" class="nav_link active">Inicio</a></li>
+        <li class="nav_item"><a href="#sobre" class="nav_link">Sobre</a></li>
+        <li class="nav_item"><a href="#ferramentas" class="nav_link">Funcionalidades</a></li>
+        <li class="nav_item"><a href="#contato" class="nav_link">Contato</a></li>
+        <li class="nav_item"><a href="login.html" class="nav_link">Acesso a ferramenta</a></li>
+        <li class="nav_item"><a href="cadastro.html" class="nav_link">Cadastro</a></li>
+    </ul>
+</div>
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="main-1">
+        <!-- INICIO -->
+        <section class="inicio bd-grid" id="inicio">
+            <div class="inicio_data">
+                <h1 class="inicio_titulo">Somos a<br><span class="inicio_titulo-color">Moeda-Line</span>!
+                    <br>A solução para sua empresa.</h1>
+                
+            </div>
+
+            <div class="inicio_social">
+                <a href="#" class="inicio_social-icone" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#" class="inicio_social-icone" target="_blank"><i class='bx bxl-facebook-square'></i></a>
+            </div>
+
+            <div class="inicio_img">
+                <img src="./images/logo2.png" alt="">
+            </div>
+        </section>
+
+        <!-- SOBRE -->
+        <section class="sobre section" id="sobre">
+            <h2 class="sobre_titulo"><span class="section-title">Sobre nós</span></h2>
+
+            <div class="sobre_container bd-grid">
+                <div class="sobre_img">
+                    <img src="./images/work1.jpg" alt="">
+                </div>
+
+                <div>
+                    <h2 class="sobre_subtitulo">Moeda-Line</h2>
+                    <p class="sobre_texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate porro animi earum odit quibusdam maxime cum sequi quaerat distinctio mollitia optio deleniti soluta, dolorem magnam sapiente tenetur aperiam quasi? Molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla beatae, commodi assumenda expedita maxime minus officia quo rerum dolorem architecto fugit impedit quasi earum quos amet. Laboriosam obcaecati necessitatibus ratione?</p>
+                    
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- FERRAMENTAS -->
+
+        <section class="ferramentas section" id="ferramentas">
+            <h2 class="section-title">Ferramentas</h2>
+
+            <div class="ferramentas_container">
+                <div class="ferramentas_img">
+                    <img src="./images/work2.jpg" alt="">
+                </div>
+                <div class="ferramentas_img">
+                    <img src="./images/work3.jpg" alt="">
+                </div>
+                <div class="ferramentas_img">
+                    <img src="./images/work4.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CONTATO -->
+        <section class="contato section" id="contato">
+            <h2 class="section-title">Contato</h2>
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="#" method="post">
+                <fieldset id="fs-frm-inputs">
+                  <label for="full-name">Nome:</label>
+                  <input type="text" name="name" id="full-name" placeholder="Nome completo" required="">
+                  <label for="email-address">Email:</label>
+                  <input type="email" name="_replyto" id="email-address" placeholder="email@email.com.br" required="">
+                  <label for="message">Mensagem</label>
+                  <textarea rows="5" name="message" id="message" placeholder="Digite sua mensagem" required=""></textarea>
+                  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                </fieldset>
+                <input type="submit" value="Submit">
+              </form>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <p class="footer_titulo">moeda-line</p>
+            
+            <p>&#169; 2021</p>
+        </footer>
+
+
+
+
+    </main>
+    
+
+<!-- SCROLL REVEAL -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- JAVASCRIPT PRINCIPAL -->
+    <script src="script.js"></script>
+</body>
+</html>
