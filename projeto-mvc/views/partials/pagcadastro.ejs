@@ -1,0 +1,33 @@
+<!-- INICIO CADASTRO -->
+
+<section class="inicio_cadastro bd-grid" id="inicio">
+    <div class="inicio_data">
+        <h1 class="inicio_titulo">Faça seu <span class="inicio_titulo-color">Cadastro</span>!
+            </h1>
+
+            <div class="form-cadastro">
+
+                <form id="fs-frm" name="registration-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+                    <fieldset id="fs-frm-inputs">
+                      <label for="full-name">Nome Completo</label>
+                      <input type="text" name="name" id="full-name" placeholder="Nome Completo" required="">
+                      <label for="email-address">Endereço de E-mail</label>
+                      <input type="email" name="_replyto" id="email-address" placeholder="email@email.com.br" required="">
+                      <label for="street-address">Endereço completo</label>
+                      <input type="text" name="street" id="street-address" placeholder="Rua, nº" required="">
+                      <fieldset class="locale">
+                        <legend>Local</legend>
+                        <input type="text" name="city" placeholder="Cidade" required="">
+                        <select name="state" required="">
+                          <option value="Select" selected="" disabled="">Estado</option>
+                            <option value="SP">São Paulo</option>
+                        </select>
+                        <input type="text" name="postal-code" placeholder="CEP" required="">
+                      </fieldset>
+                      <input type="hidden" name="_subject" id="email-subject" value="Registration Form Submission">
+                    </fieldset>
+                    <input type="submit" value="Registrar"><br>
+                    <a href="/login">Já é registrado? Clique aqui e acesse a sua conta!</a>
+                  </form>
+        
+    </div>
